@@ -1,6 +1,8 @@
 # Google-Crewmate
 I created this game as my practice for game development.
 
+Required unity version: 2020.1.3f1
+
 Watch this video to know how I developed this game in my potato pc: https://www.youtube.com/watch?v=EIO2upUJaWc
 
 Specs of my pc:
