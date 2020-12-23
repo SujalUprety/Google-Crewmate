@@ -1,0 +1,535 @@
+/target:library
+/nowarn:0169
+/out:Temp/Unity.Timeline.Editor.dll
+/deterministic
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:"E:/Projects/unity/crewmate is dinosaur/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEditor.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
+/reference:"E:/Unity 2020/2020.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLUSTERINPUT
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MOVIES
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VIRTUALTEXTURING
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_WWW
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_4_6
+/define:PLATFORM_ARCH_64
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:TRACE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1
+/define:UNITY_2020_1_3
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_64
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_STANDALONE
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_TEAM_LICENSE
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Actions\ClipsActions.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Actions\ItemAction.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Actions\MarkerActions.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Actions\Menus\MenuItemActionBase.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Actions\Menus\TimelineContextMenu.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Actions\TimelineActions.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Actions\TrackActions.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Activation\ActivationTrackEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Activation\ActivationTrackInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Analytics\TimelineAnalytics.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\AnimationClipActions.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\AnimationClipCurveCache.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\AnimationOffsetMenu.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\AnimationPlayableAssetEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\AnimationTrackActions.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\BindingSelector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\BindingTreeViewDataSource.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\BindingTreeViewDataSourceGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\ClipCurveEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\CurveDataSource.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\CurvesProxy.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Animation\TimelineAnimationUtilities.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Attributes\ActiveInModeAttribute.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Attributes\MenuEntryAttribute.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Attributes\ShortcutAttribute.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Audio\AudioClipPropertiesDrawer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Audio\AudioPlayableAssetEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Audio\AudioPlayableAssetInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Audio\AudioTrackInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\ControlTrack\ControlPlayableAssetEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\CurveEditUtility.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\CustomEditors\ClipEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\CustomEditors\CustomTimelineEditorCache.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\CustomEditors\MarkerEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\CustomEditors\MarkerTrackEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\CustomEditors\TrackEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\DirectorNamedColor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\DirectorStyles.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Extensions\AnimatedParameterExtensions.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Extensions\AnimationTrackExtensions.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Extensions\TrackExtensions.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Items\ClipItem.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Items\ITimelineItem.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Items\ItemsGroup.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Items\ItemsPerTrack.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Items\ItemsUtils.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Items\MarkerItem.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\AddDelete\AddDeleteItemModeMix.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\AddDelete\AddDeleteItemModeReplace.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\AddDelete\AddDeleteItemModeRipple.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\AddDelete\IAddDeleteItemMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Cursors\TimelineCursors.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\EditMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\EditModeInputHandler.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Move\IMoveItemMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Move\MoveItemHandler.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Move\MoveItemModeMix.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Move\MoveItemModeReplace.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Move\MoveItemModeRipple.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Move\MovingItems.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Sequence\EaseClip.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Sequence\Jog.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Sequence\MarkerHeaderContextMenu.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Sequence\RectangleSelect.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Sequence\RectangleTool.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Sequence\RectangleZoom.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Sequence\SelectAndMoveItem.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Sequence\TrackZoom.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Sequence\TrimClip.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\TimeAreaAutoPanner.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\TimeIndicator.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\TimelineClipGroup.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Trim\ITrimItemMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Trim\TrimItemModeMix.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Trim\TrimItemModeReplace.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Trim\TrimItemModeRipple.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Utils\EditModeGUIUtils.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Utils\EditModeMixUtils.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Utils\EditModeReplaceUtils.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Utils\EditModeRippleUtils.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Utils\EditModeUtils.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Utils\ManipulatorsUtils.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Manipulators\Utils\PlacementValidity.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\MenuOrder.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Playables\ControlPlayableInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Properties\AssemblyInfo.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Recording\AnimationTrackRecorder.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Recording\TimelineRecording.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Recording\TimelineRecordingContextualResponder.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Recording\TimelineRecording_Monobehaviour.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Recording\TimelineRecording_PlayableAsset.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Recording\TrackAssetRecordingExtensions.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Shortcuts.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\SignalAssetInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\SignalEmitterEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\SignalEmitterInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\SignalEventDrawer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\SignalManager.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\SignalReceiverHeader.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\SignalReceiverInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\SignalUtility.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\Styles.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\TreeView\SignalListFactory.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\TreeView\SignalReceiverItem.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Signals\TreeView\SignalReceiverTreeView.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\State\ISequenceState.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\State\SequenceHierarchy.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\State\SequencePath.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\State\SequenceState.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\State\WindowState.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\TimelineEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\TimelineHelpers.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\TimelineSelection.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\TimelineUtility.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Tooltip.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Trackhead.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\UnityEditorInternals.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\AnimatedParameterCache.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\AnimatedParameterUtility.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\BindingUtility.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\BreadcrumbDrawer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\ClipModifier.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\Clipboard.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\ControlPlayableUtility.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\CustomTrackDrawerAttribute.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\DisplayNameHelper.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\GUIColorOverride.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\GUIGroupScope.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\GUIMixedValueScope.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\GUIViewportScope.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\Graphics.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\KeyTraverser.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\MarkerModifier.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\ObjectExtension.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\ObjectReferenceField.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\PropertyCollector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\Range.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\SequenceSelectorNameFormater.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\SpacePartitioner.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\StyleManager.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\StyleNormalColorOverride.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\TimeReferenceUtility.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\TimelineKeyboardNavigation.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\TrackModifier.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\TrackResourceCache.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Utilities\TypeUtility.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\Modes\TimeReferenceMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\Modes\TimelineActiveMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\Modes\TimelineAssetEditionMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\Modes\TimelineDisabledMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\Modes\TimelineInactiveMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\Modes\TimelineMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\Modes\TimelineReadOnlyMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\PlaybackScroller.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineMarkerHeaderGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindowTimeControl.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_ActiveTimeline.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_Breadcrumbs.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_Duration.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_EditorCallbacks.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_Gui.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_HeaderGui.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_Manipulators.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_PlayRange.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_PlayableLookup.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_PreviewPlayMode.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_Selection.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_StateChange.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_TimeArea.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_TimeCursor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\TimelineWindow_TrackGui.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\ViewModel\ScriptableObjectViewPrefs.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\ViewModel\TimelineAssetViewModel.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\ViewModel\TimelineWindowViewPrefs.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\Window\WindowConstants.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\AnimationPlayableAssetInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\AnimationTrackInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\BasicAssetInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\BuiltInCurvePresets.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\ClipInspector\ClipInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\ClipInspector\ClipInspectorCurveEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\ClipInspector\ClipInspectorSelectionInfo.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\CurvesOwner\CurvesOwnerInspectorHelper.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\CurvesOwner\ICurvesOwnerInspectorWrapper.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\DirectorNamedColorInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\EditorClip.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\EditorClipFactory.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\GroupTrackInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\MarkerInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\TimeFieldDrawer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\TimelineAssetInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\TimelineInspectorUtility.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\TimelinePreferences.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\TimelineProjectSettings.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\inspectors\TrackAssetInspector.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\AnimationTrackKeyDataSource.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Control.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Drawers\AnimationTrackDrawer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Drawers\ClipDrawer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Drawers\InfiniteTrackDrawer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Drawers\Layers\ClipsLayer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Drawers\Layers\ItemsLayer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Drawers\Layers\MarkersLayer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Drawers\TrackDrawer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Drawers\TrackItemsDrawer.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\IPropertyKeyDataSource.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\IRowGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\ItemGui\ISelectable.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\ItemGui\TimelineClipGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\ItemGui\TimelineItemGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\ItemGui\TimelineMarkerClusterGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\ItemGui\TimelineMarkerGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\ManipulationsClips.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\ManipulationsTimeline.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\ManipulationsTracks.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Manipulator.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\PickerUtils.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Snapping\IAttractable.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Snapping\ISnappable.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\Snapping\SnapEngine.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TimelineClipHandle.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TimelineClipUnion.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TimelineDataSource.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TimelineDragging.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TimelineTreeView.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TimelineTreeViewGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TrackGui\InlineCurveEditor.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TrackGui\TimelineGroupGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TrackGui\TimelineTrackBaseGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TrackGui\TimelineTrackErrorGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TrackGui\TimelineTrackGUI.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TrackGui\TrackResizeHandle.cs"
+"E:\Projects\unity\crewmate is dinosaur\Library\PackageCache\com.unity.timeline@1.3.4\Editor\treeview\TrackPropertyCurvesDataSource.cs"

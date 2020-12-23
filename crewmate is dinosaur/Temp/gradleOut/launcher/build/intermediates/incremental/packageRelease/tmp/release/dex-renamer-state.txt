@@ -1,0 +1,4 @@
+#Sun Dec 13 21:15:05 NPT 2020
+base.0=E\:\\Projects\\unity\\crewmate is dinosaur\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
